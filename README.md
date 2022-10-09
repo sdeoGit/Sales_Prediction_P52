@@ -23,6 +23,8 @@ sampleSubmission.CSV: id, units</li>
 <li>app.py- API to predict the sales units</li>
 <li>template-index.html- Interface for user input</li>
 
+#### Deployed Project Link: https://project-sales-prediction.herokuapp.com/
+
 
 
 
