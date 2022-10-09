@@ -16,13 +16,16 @@
       <div id="login-box">
         <div class="logo">
           <img
-            src="../walmart-icon.png"
+            src="https://www.freepnglogos.com/uploads/walmart-logo-24.jpg"
             class="img img-responsive img-circle center-block"
+            alt="logo walmart png image"
+            width="200"
           />
           <h1 class="logo-caption">
             <span class="tweak">W</span>almart <span class="tweak">S</span>ales
             <span class="tweak">P</span>rediction
           </h1>
+          <h4 class="logo-caption">Project 52 - UOH</h4>
         </div>
         <!-- /.logo -->
         <form action="{{ url_for('predict')}}" method="post">
@@ -70,7 +73,7 @@
           </div>
         </form>
 
-        <h3>{{ prediction_text }}</h3>
+        <span class="result-text"><h3>{{ prediction_text }}</h3></span>
       </div>
     </div>
     <div id="particles-js"></div>
@@ -276,6 +279,10 @@
       position: fixed;
       top: 0px;
       z-index: 1;
+    }
+    .result-text {
+      color: #a0c05e;
+      text-align: center;
     }
   </style>
 </html>
